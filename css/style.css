@@ -129,6 +129,7 @@ section {
 .cabecalho-secao h2 {
   padding: 24px;
   font-size: 64px;
+  text-transform: uppercase;
 }
 
 .cabecalho-secao p {
@@ -240,4 +241,23 @@ section {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/*-------------------*/
+.secao-info {
+  background: var(--cor-secundaria);
+  color: #fff;
+  padding: 70px;
+}
+
+.container-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  gap: 30px;
+  text-align: center;
+}
+
+.info {
+  font-size: 40px;
 }
