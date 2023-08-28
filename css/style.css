@@ -261,3 +261,71 @@ section {
 .info {
   font-size: 40px;
 }
+
+/*--------------------*/
+.secao-frase {
+  height: 1200px;
+  background-image: url("/img/sec-4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.secao-frase h1,
+.secao-frase p {
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+}
+
+/*--------------------------*/
+.secao-form {
+  background: var(--cor-primaria);
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 60px;
+}
+
+.cabecalho-form h1 {
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  padding: 60px;
+}
+
+.secao-form p {
+  color: #fff;
+  font-size: 24px;
+}
+
+.form {
+  display: flex;
+  padding: 60px;
+}
+
+.form input {
+  padding: 15px;
+  width: 500px;
+  font-size: 30px;
+  border: none;
+  margin: 0;
+}
+
+.form button {
+  background: var(--cor-secundaria);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 25px 80px;
+  font-size: 30px;
+}
+
+/*----------------*/
