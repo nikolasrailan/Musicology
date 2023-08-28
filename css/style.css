@@ -329,3 +329,31 @@ section {
 }
 
 /*----------------*/
+
+.footer {
+  background: var(--cor-secundaria);
+  color: #fff;
+  padding: 60px;
+  font-size: 20px;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.footer-secoes a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-secoes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-secoes {
+}
+
+.footer-secoes:nth-child(1) {
+  width: 900px;
+}
